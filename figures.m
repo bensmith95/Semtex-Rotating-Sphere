@@ -9,7 +9,7 @@ Re = 1e4;
 t = 15;
 
 % load semtex data
-Semfile = ['DNS_Re=',num2str(Re),'_t=',num2str(t),'.mat'];
+Semfile = ['data/DNS_Re=',num2str(Re),'_t=',num2str(t),'.mat'];
 load(Semfile); XS = X; YS = Y; US = U; VS = V; WS = W; PS = P;
 
 % display info
